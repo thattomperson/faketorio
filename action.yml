@@ -1,0 +1,9 @@
+name: "Faketorio"
+description: Run faketorio commands
+author: "ThatTomPerson <thomas@ttp.sh>"
+branding:
+  icon: "package"
+  color: "orange"
+runs:
+  using: "docker"
+  image: "Dockerfile"
